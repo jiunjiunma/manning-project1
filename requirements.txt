@@ -1,0 +1,4 @@
+pandas
+notebook>=5.3
+ipywidgets>=7.5
+plotly==5.1.0
