@@ -49,3 +49,10 @@ services:
     ports:
       - 3000:3000
       - 9090:9090
+
+  service:
+    image: jiunjiunma/lp-service
+    container_name: 'service'
+    restart: unless-stopped
+    ports:
+      - 8000:8000
